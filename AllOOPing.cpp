@@ -7,17 +7,17 @@ using namespace std;
 class arrayListTy
 {
 public:
-    bool isEmpty() const;
+    bool isEmpty() const; //checks of list is empty
 
-    bool isFull() const;
+    bool isFull() const;//checks if list is full
 
-    int listSize() const;
+    int listSize() const;//checks the length of list
 
-    int maxListSize() const;
+    int maxListSize() const;//checks the total size of the list
 
-    void print() const;
+    void print() const;//prints the members of the list
 
-    bool isItemAtEqual(int location, int item) const;
+    bool isItemAtEqual(int location, int item) const;//checks for the item equality at the given location
 
     void insertAt(int location, int insertItem);
 
